@@ -271,6 +271,162 @@ body{
     width: 100%;
 }
 
+/*=========================
+ABOUT SECTION
+==========================*/
+
+.about{
+    padding:100px 12%;
+    background:#07111a;
+}
+
+.heading{
+    text-align:center;
+    font-size:45px;
+    margin-bottom:60px;
+    color:#fff;
+}
+
+.heading span{
+    color:#00abf0;
+}
+
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.about-image img{
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #00abf0;
+    box-shadow:0 0 30px rgba(0,171,240,.4);
+}
+
+.about-text{
+    flex:1;
+    min-width:320px;
+}
+
+.about-text h3{
+    font-size:32px;
+    color:#00abf0;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    font-size:17px;
+    line-height:1.8;
+    color:#d6d6d6;
+}
+
+.about-info{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin:35px 0;
+}
+
+.about-info div{
+    background:#101b26;
+    padding:18px;
+    border-radius:10px;
+    border-left:4px solid #00abf0;
+}
+
+.about-info h4{
+    color:#00abf0;
+    margin-bottom:6px;
+}
+
+.about-info p{
+    color:#fff;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#00abf0;
+    color:#081b29;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.4s;
+}
+
+.btn:hover{
+    background:transparent;
+    color:#00abf0;
+    border:2px solid #00abf0;
+}
+
+
+/*=========================
+SKILLS SECTION
+==========================*/
+
+.skills{
+    padding:100px 12%;
+    background:#000;
+}
+
+.skills-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:35px;
+}
+
+.skill-box{
+    background:#101b26;
+    padding:25px;
+    border-radius:12px;
+    transition:.4s;
+}
+
+.skill-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(0,171,240,.3);
+}
+
+.skill-box h3{
+    margin-bottom:12px;
+    color:#fff;
+}
+
+.progress{
+    width:100%;
+    height:12px;
+    background:#1e2b38;
+    border-radius:50px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    height:100%;
+    border-radius:50px;
+    background:#00abf0;
+}
+
+.html{
+    width:95%;
+}
+
+.css{
+    width:90%;
+}
+
+.js{
+    width:75%;
+}
+
+.github{
+    width:85%;
+}
 /*.home-imgHover {
     position: absolute;
     top: 0;
